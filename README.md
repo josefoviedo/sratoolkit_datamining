@@ -6,11 +6,9 @@ repo for data mining application with sratoolkit
 Hi,
 My name is Jose Oviedo, and today I'll be discussing the data collection aspect of the data mining pipeline through open-data mining with a focus on applying it to the field of genomics. I'll briefly explore the background of why we might consider using open-data and the potential benefits, such as ability for conducting novel studies or investigations that can answer new questions by using existing datasets, or by combining them with external data to create new datasets.
 
-Data mining is applicable across various fields that rely on data. However, as mentioned I'll be focusing on the field of genomics, particularly on the data collection and pre-processing of DNA sequencing data, which is essential for downstream analyses.
-
 Some background on data collection and why open-data might be worth considering. It is possible and likely that during the course of research the data collected from experiments could be found to be insufficient to come to a conclusion and generating new data from experiments might not be feasible and that is where open-data can potentially fill in gaps or increase robustness of conclusions, by aggregating similar data for additional analysis. Another way open-data can benefit research is in a case where there is existing public datasets that were previously investigated but can potentially be investigated using different approaches to the original.
 
-The data mining application we will perform addresses a real-world use case that could arise, and it’s also relative to what we learned in the course regarding implementing new or “new-to-you” practical software applications, and just continually expanding our knowledge of available domain relative software packages.
+Data mining is applicable across various fields that rely on data. However, as mentioned I'll be focusing on the field of genomics, particularly on the data collection and pre-processing of DNA sequencing data, which is essential for downstream analyses.The data mining application we will perform addresses a real-world use case that could arise, and it’s also relative to what we learned in the course regarding implementing new or “new-to-you” practical software applications, and just continually expanding our knowledge of available domain relative software packages.
 
 The relatively recent increase of accessible open-data for research purposes has created new possibilities for research using existing datasets in novel ways as mentioned and this publication I found supports that conclusion to some degree. 
 
@@ -34,4 +32,5 @@ I briefly configured sratoolkit so that remote access is activated which should 
 
 Now that the sequencing files have been copied we can verify them by going to the specified local data directory and see if they are there. Now that we have the data locally we can begin the next steps like pre-processing and quality control before potentially implementing the newly gotten data into our current project dataset or analyses. 
 
-Here we can see how this application of data mining is relevant to real-world research in genomics but also how it might be applied to other fields, who all have their own domain-specific version of the SRA repository and similar software applications to access and transfer data to a destination.
+Here, we can see how this application of data mining is relevant to real-world research in genomics but also how it might be applied to other fields, who all have their own domain-specific version of the SRA repository and similar software applications to access and transfer data to a destination.
+
