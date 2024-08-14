@@ -4,7 +4,7 @@ repo for data mining application with sratoolkit
 
 # presentation captions
 Hi,
-My name is Jose Oviedo, and today I'll be discussing the data collection aspect of the data mining pipeline through open-data mining with a focus on applying it to the field of genomics. I'll briefly explore potential benefits, such as ability for conducting novel studies or investigations that can answer new questions by using existing datasets, or by combining them with external data to create new datasets.
+My name is Jose Oviedo, and today I'll be discussing the data collection aspect of the data mining pipeline through open-data mining with a focus on applying it to the field of genomics. I'll briefly explore the background of why we might consider using open-data and the potential benefits, such as ability for conducting novel studies or investigations that can answer new questions by using existing datasets, or by combining them with external data to create new datasets.
 
 Data mining is applicable across various fields that rely on data. However, as mentioned I'll be focusing on the field of genomics, particularly on the data collection and pre-processing of DNA sequencing data, which is essential for downstream analyses.
 
