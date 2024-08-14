@@ -1,0 +1,33 @@
+## first go to the directory where you want to store the SRA files, once there check to see if sratoolkit is installed.
+
+## I use a package manager called Homebrew, and there are others, but for simplicty I will only use this so the syntax for me is as follows:
+
+## this shows me the library of packages in my current environment, if sratoolkit is not listed then it must be installed.
+brew list
+
+## this shows me the library of packages in my current environment, if sratoolkit is not listed then it must be installed.
+brew install sratoolkit
+
+## since I already have it installed it just outputs a warning saying its there and is up to date.
+## next we want to confifure sratoolkit after installing it, you can also use the default config settings if you want.
+## this config function opens the config settings
+vdb-config --interactive
+
+## after sratoolkit has been configured as desired we can use our previously identified SRA numbers or SRA IDs to extract the sequencing data from the SRA.
+## there a couple main functions used to extract data, one is fastq-dump and the other is prefetch which is apparently used for larger size datasets.
+
+## we will be using fastq-dump since it is very straight forward and used relatively small data extraction, per the documentation.
+fastq-dump --split-files SRR12345678
+
+## using this function we specified the sequencing data structure using the --split-files flag/argument which indicates that the data is paired-end sequencing data as opposed to single stranded sequencing data.
+## the other argument we are specifiying is the SRA ID which is used to search the SRA repository, access the data and extract it to desired destination.
+
+## next check the destination directory to ensure the files have been extracted correctly.
+## change the path to the destination you chose since this one is mine.
+ls -l /Users/jfoviedo/Code_/zsh-cli/sratoolkit_test1 
+
+## now that we verified the data was extracted successfully we can begin processing it and exploring it to determine if it should be implemented somehow into the main project dataset.
+
+## the sratoolkit application can be repeated or run in parallel if you are extracting sequencing data from various SRA IDs or datasets.
+
+## in future application testing, I am interested in using cloud repositories as the destination rather than to my local machine. 
